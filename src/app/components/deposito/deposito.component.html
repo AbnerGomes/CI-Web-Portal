@@ -1,0 +1,23 @@
+<div class="col-lg-8 offset-lg-2">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="titulo"> Depositos </h5>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td> id dep</td>
+                        <td> id usu</td>
+                        <td> id lote</td>
+                    </tr>
+                    <tr *ngFor="let dep of listaDepositos">
+                        <td> {{ dep.idDeposito }}</td>
+                        <td> {{ dep.idUsuario }}</td>
+                        <td> {{ dep.idLote }}</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+            </tbody>
+            </table>
+        </div>
+    </div>
+</div>
