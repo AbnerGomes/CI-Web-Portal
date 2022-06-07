@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ToastrService } from 'ngx-toastr';
 import { DepositoService } from 'src/app/services/deposito.service';
 
 @Component({
@@ -14,23 +15,37 @@ export class DepositoComponent implements OnInit {
   ];
 
   listaDepositos: any[] = [];
-
-  constructor(private depositoService : DepositoService) { }
+  constructor(private depositoService : DepositoService
+            , private toastr: ToastrService) { }
 
   ngOnInit(): void {
-    this.retornacartoes();
+    this.getDepositos();
   }
 
-  retornacartoes(){
+   getDepositos(){
     this.depositoService.getListaDepositos().subscribe(data => {
       
       this.listaDepositos = data;
 
       console.log(data);
+      
     }, error =>{
       console.log(error);
     });
   }
 
+
+  deleteDeposito(id: number){
+    this.depositoService.deleteDeposito(id).subscribe(data => {
+      
+      this.toastr.error("Deposito deletado com sucesso!");
+
+      console.log(data);
+      this.getDepositos();
+    }, error =>{
+      console.log(error);
+      this.toastr.error("Erro: Não foi possível realizar a deleção do deposito selecionado.");
+    });
+  }
 
 }

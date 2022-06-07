@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CofreInteligente\\Api\\CofreInteligente\\CofreInteligente.csproj": {}
+    "C:\\CofreInteligente\\CI-Web-Portal\\Api\\CofreInteligente\\CofreInteligente.csproj": {}
   },
   "projects": {
-    "C:\\CofreInteligente\\Api\\CofreInteligente\\CofreInteligente.csproj": {
+    "C:\\CofreInteligente\\CI-Web-Portal\\Api\\CofreInteligente\\CofreInteligente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CofreInteligente\\Api\\CofreInteligente\\CofreInteligente.csproj",
+        "projectUniqueName": "C:\\CofreInteligente\\CI-Web-Portal\\Api\\CofreInteligente\\CofreInteligente.csproj",
         "projectName": "CofreInteligente",
-        "projectPath": "C:\\CofreInteligente\\Api\\CofreInteligente\\CofreInteligente.csproj",
+        "projectPath": "C:\\CofreInteligente\\CI-Web-Portal\\Api\\CofreInteligente\\CofreInteligente.csproj",
         "packagesPath": "C:\\Users\\abner.oliveira\\.nuget\\packages\\",
-        "outputPath": "C:\\CofreInteligente\\Api\\CofreInteligente\\obj\\",
+        "outputPath": "C:\\CofreInteligente\\CI-Web-Portal\\Api\\CofreInteligente\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wyOfTHMrPnXh9uXY+TU4aSgUUgLdmk5cjrlogAFgGQlK9ft3++/OXNPmOHzn8oIAEfPTqRSfkTLV/EOvUP6qzw==",
+  "dgSpecHash": "Iecs9sa4M0xB/zkzZWJlcSLBqlnYglSqVyc5Yp8Ncg6YUYMtz8hc0BvvQYy8VSDN4xkhP1APPCq/d8x+WFlI0A==",
   "success": true,
-  "projectFilePath": "C:\\CofreInteligente\\Api\\CofreInteligente\\CofreInteligente.csproj",
+  "projectFilePath": "C:\\CofreInteligente\\CI-Web-Portal\\Api\\CofreInteligente\\CofreInteligente.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abner.oliveira\\.nuget\\packages\\microsoft.data.sqlite\\6.0.5\\microsoft.data.sqlite.6.0.5.nupkg.sha512",
     "C:\\Users\\abner.oliveira\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.5\\microsoft.data.sqlite.core.6.0.5.nupkg.sha512",

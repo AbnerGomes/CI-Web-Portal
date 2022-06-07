@@ -28,7 +28,7 @@ namespace CofreInteligente.Service
 
             command.CommandText =
             @"
-                select Id_deposito, id_usuario, Id_lote, dt_deposito 
+                select Id_lote, id_usuario, Id_deposito, dt_deposito 
                 from Deposito
                 
             ";
