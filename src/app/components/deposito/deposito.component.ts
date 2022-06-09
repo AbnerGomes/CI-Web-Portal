@@ -9,11 +9,6 @@ import { DepositoService } from 'src/app/services/deposito.service';
 })
 export class DepositoComponent implements OnInit {
 
-  listacartoes : any[] = [
-    {titular: 'Abner Gomes', data: '11/23', codigo: '999'},
-    {titular: 'William Oliveira', data: '11/24', codigo: '111'},
-  ];
-
   listaDepositos: any[] = [];
   constructor(private depositoService : DepositoService
             , private toastr: ToastrService) { }
